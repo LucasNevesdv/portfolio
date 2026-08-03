@@ -1,16 +1,68 @@
-# React + Vite
+# Portfólio Profissional - Lucas Neves
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Landing page profissional de Lucas Marcelino Neves, desenvolvida para apresentar sua trajetória acadêmica, competências técnicas, projetos e canais de contato.
 
-Currently, two official plugins are available:
+O projeto possui interface responsiva em Dark Mode, navegação acessível e uma arquitetura frontend organizada por funcionalidades, mantendo dados, componentes e apresentação visual desacoplados.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Sobre o desenvolvedor
 
-## React Compiler
+Lucas Marcelino Neves é acadêmico de Sistemas de Informação na Universidade Federal de Lavras (UFLA).
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Seu foco profissional está no desenvolvimento Backend, com interesse especial em Clean Architecture, código legível e manutenível e resolução de problemas reais de lógica e negócio.
 
-## Expanding the Oxlint configuration
+## Tech stack principal
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- JavaScript, Node.js e Express
+- React, Vite e Tailwind CSS
+- PostgreSQL e Java
+
+## Projeto em destaque
+
+### Auditor Fiscal
+
+Plataforma criada como case de portfólio para validar documentos empresariais e identificar fragilidades fiscais por meio de regras de negócio estruturadas.
+
+O projeto foi desenvolvido com separação de responsabilidades e arquitetura desacoplada, facilitando a evolução, a leitura e a manutenção do código.
+
+## Como executar localmente
+
+### Pré-requisitos
+
+- Node.js instalado
+- npm instalado
+
+### Instalação
+
+Clone o repositório, acesse a pasta do projeto e instale as dependências:
+
+```bash
+npm install
+```
+
+Inicie o servidor de desenvolvimento:
+
+```bash
+npm run dev
+```
+
+O terminal informará o endereço local para acessar o portfólio no navegador.
+
+## Scripts disponíveis
+
+```bash
+npm run dev      # Inicia o ambiente de desenvolvimento
+npm run build    # Gera o build de produção
+npm run lint     # Verifica a qualidade do código
+npm run preview  # Visualiza localmente o build de produção
+```
+
+## Tecnologias do portfólio
+
+- React
+- Vite
+- Tailwind CSS
+- JavaScript
+
+---
+
+© 2026 Lucas Neves
