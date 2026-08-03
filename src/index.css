@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color: #f8fafc;
+    background-color: #05070b;
+    font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    min-width: 320px;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #05070b;
+  }
+
+  button,
+  a {
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+@layer utilities {
+  .glow-blue {
+    box-shadow:
+      0 0 12px rgb(59 130 246 / 55%),
+      0 0 32px rgb(29 78 216 / 35%);
+  }
+
+  .text-glow-blue {
+    text-shadow:
+      0 0 8px rgb(59 130 246 / 70%),
+      0 0 24px rgb(29 78 216 / 45%);
+  }
+}
